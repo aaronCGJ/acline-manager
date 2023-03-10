@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/acline-contract/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-contract/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-eureka/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-invoice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-invoice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-product/application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-product/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-product/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-product/service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-report/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-report/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-sso/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-sso/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-tool/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-tool/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-vendor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acline-vendor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

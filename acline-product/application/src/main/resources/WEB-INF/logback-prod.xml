@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- <include resource="org/springframework/boot/logging/logback/base.xml"/> -->
+
+    <!--
+		appenders
+     -->
+    <appender name="DEFAULT-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/common.log</file>
+        <encoder>
+            <pattern>
+                [%d] [%level] [%X{xRequestId}] %logger - %m%n
+            </pattern>
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_PATH}/common.log.%d{yyyy-MM-dd}</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="ERROR-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/error.log</file>
+        <encoder>
+            <pattern>
+                [%d] [%level] [%X{xRequestId}] %logger - %m%n
+            </pattern>
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_PATH}/error.log.%d{yyyy-MM-dd}</fileNamePattern>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+    </appender>
+
+    <appender name="APP-DEFAULT-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/app.log</file>
+        <encoder>
+            <pattern>
+                [%d] [%level] [%X{xRequestId}] %logger - %m%n
+            </pattern>
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_PATH}/app.log.%d{yyyy-MM-dd}</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="CRON-JOBS-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/cron-jobs.log</file>
+        <encoder>
+            <pattern>
+                [%d] [%level] [%X{xRequestId}] %logger - %m%n
+            </pattern>
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_PATH}/cron-jobs.log.%d{yyyy-MM-dd}</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+    <!--
+    	loggers
+     -->
+    <logger name="com.zenlayer.oss" level="INFO" additivity="false">
+        <appender-ref ref="APP-DEFAULT-APPENDER"/>
+        <appender-ref ref="ERROR-APPENDER"/>
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="DEFAULT-APPENDER"/>
+        <appender-ref ref="ERROR-APPENDER"/>
+    </root>
+
+</configuration>
