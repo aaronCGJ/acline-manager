@@ -1,0 +1,15 @@
+GET http://localhost:8080/ip/ipTest
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-10T110514.200.txt
+
+###
+
+GET http://localhost:8080/ip/ipTest
+
+<> 2022-11-16T143100.404.json
+
+###
+
