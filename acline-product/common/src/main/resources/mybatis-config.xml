@@ -13,7 +13,7 @@
     </settings>
 
     <plugins>
-        <plugin interceptor="com.zenlayer.wukong.starter.mybatis.interceptor.MybatisExecutorInterceptor"/>
+        <plugin interceptor="com.acline.dal.mapperinterceptor.MybatisExecutorInterceptor"/>
     </plugins>
 
 </configuration>

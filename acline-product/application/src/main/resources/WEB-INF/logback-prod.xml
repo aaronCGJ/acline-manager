@@ -66,7 +66,7 @@
     <!--
     	loggers
      -->
-    <logger name="com.zenlayer.oss" level="INFO" additivity="false">
+    <logger name="com.acline" level="INFO" additivity="false">
         <appender-ref ref="APP-DEFAULT-APPENDER"/>
         <appender-ref ref="ERROR-APPENDER"/>
     </logger>

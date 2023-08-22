@@ -6,13 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/acline-eureka/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/acline-common-mybatis-starter/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/acline-sso/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-eureka/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

@@ -2,21 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="acline-dashboard" />
+        <module name="acline-tool" />
+        <module name="acline-contract" />
         <module name="core" />
         <module name="application" />
         <module name="common" />
+        <module name="acline-common-mybatis-starter" />
         <module name="service" />
         <module name="acline-vendor" />
         <module name="acline-invoice" />
-        <module name="acline-dashboard" />
         <module name="acline-product.application" />
         <module name="acline-report" />
-        <module name="acline-tool" />
-        <module name="acline-contract" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,10 +26,12 @@
       <module name="acline-sso" target="1.8" />
       <module name="cloud-eureka" target="8" />
       <module name="eureka-server" target="19" />
+      <module name="wukong-boot-common-mybatis-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="acline-common-mybatis-starter" options="-parameters" />
       <module name="acline-contract" options="-parameters" />
       <module name="acline-dashboard" options="-parameters" />
       <module name="acline-invoice" options="-parameters" />
