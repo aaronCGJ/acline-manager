@@ -1,4 +1,5 @@
-package com.acline.domain;/**
+package com.acline.dal.dataobject;
+/**
  * @author Aaron Chen
  * @date：2022/11/17 17:10
  * @Description:TODO
@@ -10,5 +11,9 @@ package com.acline.domain;/**
  * @date：2022/11/17 17:10
  * @Description:TODO
  */
+//@Table(name = "`d_facilities`")
 public class IpDO {
+    private String ip;
+    private String city;
+
 }

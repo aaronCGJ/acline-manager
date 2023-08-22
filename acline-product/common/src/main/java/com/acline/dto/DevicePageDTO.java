@@ -5,10 +5,14 @@ package com.acline.dto;/**
  * @Version 1.0
  */
 
+import lombok.Data;
+
 /**
  * @author Aaron Chen
  * @date：2022/11/17 17:09
  * @Description:TODO
  */
+@Data
 public class DevicePageDTO {
+    private transient IpPageDTO dto;
 }
