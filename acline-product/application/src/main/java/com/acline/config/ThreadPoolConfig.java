@@ -1,4 +1,4 @@
-package com.acline.app.config;
+package com.acline.config;
 
 /**
  * @author Aaron Chen

@@ -1,4 +1,4 @@
-package com.acline.app.config;
+package com.acline.config;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

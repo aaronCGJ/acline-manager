@@ -1,8 +1,8 @@
-package com.acline.app.web.device;
+package com.acline.web.device;
 
 import acline.base.util.model.ResultInfo;
 import com.acline.common.dto.DevicePageDTO;
-import com.acline.core.core.service.device.DeviceCoreService;
+import com.acline.core.service.device.DeviceCoreService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

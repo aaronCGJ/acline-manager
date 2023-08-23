@@ -7,9 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="acline-dashboard" />
-        <module name="acline-tool" />
-        <module name="acline-contract" />
         <module name="core" />
         <module name="application" />
         <module name="common" />
@@ -17,8 +14,11 @@
         <module name="service" />
         <module name="acline-vendor" />
         <module name="acline-invoice" />
+        <module name="acline-dashboard" />
         <module name="acline-product.application" />
         <module name="acline-report" />
+        <module name="acline-tool" />
+        <module name="acline-contract" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

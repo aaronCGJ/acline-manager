@@ -1,4 +1,4 @@
-package com.acline.core.core.service.device;
+package com.acline.core.service.device;
 
 import com.acline.common.dto.DevicePageDTO;
 

@@ -1,9 +1,10 @@
 package com.acline.common.dal.dao.impl;
 
-import com.acline.common.dal.base.basedao.impl.BaseDAOImpl;
 import com.acline.common.dal.dao.user.ProductUserDao;
 import com.acline.common.dal.dataobject.ProductUserDO;
 import com.acline.common.dal.mapper.ProductUserDOMapper;
+import com.acline.common.dto.UserDTO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -15,20 +16,29 @@ import java.util.List;
  * @Version
  */
 @Repository
-public class ProductUserDaoImpl extends BaseDAOImpl<ProductUserDO, ProductUserDOMapper> implements ProductUserDao {
+public class ProductUserDaoImpl
+//        extends BaseDAOImpl<ProductUserDO, ProductUserDOMapper>
+        implements ProductUserDao {
 
+    @Autowired
+    ProductUserDOMapper productUserDOMapper;
 
     public List<ProductUserDO> selectUserList() {
-        return getMapper().selectUserList();
+        return productUserDOMapper.selectUserList();
     }
 
     @Override
-    public boolean delete(ProductUserDO productUserDO) {
-        return false;
+    public boolean updateUser(UserDTO dto) {
+        return productUserDOMapper.updateUser(dto);
     }
 
-    @Override
-    protected List<String> getDOQueryColumns() {
-        return null;
-    }
+//    @Override
+//    public boolean delete(ProductUserDO productUserDO) {
+//        return false;
+//    }
+//
+//    @Override
+//    protected List<String> getDOQueryColumns() {
+//        return null;
+//    }
 }
