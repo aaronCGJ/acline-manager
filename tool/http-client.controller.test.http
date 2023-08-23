@@ -13,34 +13,11 @@ Content-Type: application/json
     client.global.set("authToken", response.body.data.token);
 %}
 
-
-#######################################################################################
-### Spring Actuator
-### >> Basic Data
-GET {{baseUrl}}{{basicData}}/actuator/health
-
-### >> Dashboard
-GET {{baseUrl}}{{dashboard}}/actuator/health
-
-### >> Metadata
-GET {{baseUrl}}{{metadata}}/actuator/health
-
-### >> Notification
-GET {{baseUrl}}{{notification}}/actuator/health
-
-### >> Project Management
-GET {{baseUrl}}{{projectManagement}}/actuator/health
-
-### >> Report
-GET {{baseUrl}}{{report}}/actuator/health
-
-### >> Resource
-GET {{baseUrl}}{{resource}}/actuator/health
-
-### >> Vendor
-GET {{baseUrl}}{{vendor}}/actuator/health
-
 ###
 GET {{baseUrl}}/device/deviceTest
+
+###
+GET localhost:8080/productUser/queryList
+
 
 ### END ###############################################################################

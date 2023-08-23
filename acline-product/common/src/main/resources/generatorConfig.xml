@@ -22,7 +22,7 @@
         <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>
 
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="com.acline.dal.basemapper.Mapper"/>
+            <property name="mappers" value="com.acline.common.dal.base.basemapper.Mapper"/>
             <property name="beginningDelimiter" value="`"/>
             <property name="endingDelimiter" value="`"/>
             <property name="generateColumnConsts" value="true"/>

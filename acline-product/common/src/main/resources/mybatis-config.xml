@@ -13,7 +13,7 @@
     </settings>
 
     <plugins>
-        <plugin interceptor="com.acline.dal.mapperinterceptor.MybatisExecutorInterceptor"/>
+        <plugin interceptor="com.acline.common.dal.base.mapperinterceptor.MybatisExecutorInterceptor"/>
     </plugins>
 
 </configuration>
