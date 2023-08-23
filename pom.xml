@@ -16,7 +16,6 @@
         <module>acline-report</module>
         <module>acline-dashboard</module>
         <module>acline-vendor</module>
-        <module>acline-common-mybatis-starter</module>
     </modules>
 
     <parent>
