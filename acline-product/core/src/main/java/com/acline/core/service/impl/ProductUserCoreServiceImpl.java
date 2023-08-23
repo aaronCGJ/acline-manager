@@ -1,8 +1,9 @@
-package com.acline.core.core.service.impl.user;
+package com.acline.core.service.impl;
 
 import com.acline.common.dal.dao.user.ProductUserDao;
 import com.acline.common.dal.dataobject.ProductUserDO;
-import com.acline.core.core.service.user.ProductUserCoreService;
+import com.acline.common.dto.UserDTO;
+import com.acline.core.service.user.ProductUserCoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,5 +24,9 @@ public class ProductUserCoreServiceImpl implements ProductUserCoreService {
     @Override
     public List<ProductUserDO> selectUserList() {
         return productUserDao.selectUserList();
+    }
+
+    public boolean updateUser(UserDTO dto) {
+        return productUserDao.updateUser(dto);
     }
 }

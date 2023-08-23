@@ -1,6 +1,6 @@
-package com.acline.core.core.service.impl.ip;
+package com.acline.core.service.impl.ip;
 
-import com.acline.core.core.service.ip.IpCoreService;
+import com.acline.core.service.ip.IpCoreService;
 
 /**
  * @author Aaron Chen

@@ -1,7 +1,7 @@
 package com.acline.common.dal.dao.user;
 
-import com.acline.common.dal.base.basedao.BaseDAO;
 import com.acline.common.dal.dataobject.ProductUserDO;
+import com.acline.common.dto.UserDTO;
 
 import java.util.List;
 
@@ -11,6 +11,10 @@ import java.util.List;
  * @Description:TODO
  * @Version
  */
-public interface ProductUserDao extends BaseDAO<ProductUserDO> {
+public interface ProductUserDao
+//        extends BaseDAO<ProductUserDO>
+{
      List<ProductUserDO> selectUserList();
+
+     boolean updateUser(UserDTO dto);
 }

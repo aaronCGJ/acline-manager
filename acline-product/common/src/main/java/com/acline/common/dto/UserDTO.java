@@ -1,4 +1,6 @@
-package com.acline.dto;
+package com.acline.common.dto;
+
+import lombok.Data;
 
 /**
  * @author Aaron Chen
@@ -6,5 +8,9 @@ package com.acline.dto;
  * @Description:TODO
  * @Version
  */
+@Data
 public class UserDTO {
+    private Integer Id;
+    private String userName;
+    private String passWord;
 }

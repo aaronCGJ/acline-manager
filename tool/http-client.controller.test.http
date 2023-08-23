@@ -19,5 +19,14 @@ GET {{baseUrl}}/device/deviceTest
 ###
 GET localhost:8080/productUser/queryList
 
+####
+POST localhost:8080/productUser/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "passWord": "edit_1",
+  "userName": "edit_aaron"
+}
 
 ### END ###############################################################################

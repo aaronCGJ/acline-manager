@@ -1,4 +1,4 @@
-package com.acline.app.web.ip;
+package com.acline.web.ip;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
