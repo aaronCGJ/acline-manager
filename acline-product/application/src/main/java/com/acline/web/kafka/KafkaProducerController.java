@@ -1,9 +1,7 @@
 package com.acline.web.kafka;
 
 import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -20,9 +18,9 @@ public class KafkaProducerController {
     public KafkaProducerController(KafkaTemplate<String, String> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }
-
-    @PostMapping("/send")
-    public void sendMessage(@RequestParam String message) {
-        kafkaTemplate.send("my_topic", message); // 发送消息到名为“my_topic”的topic
-    }
+//
+//    @PostMapping("/send")
+//    public void sendMessage(@RequestParam String message) {
+//        kafkaTemplate.send("my_topic", message); // 发送消息到名为“my_topic”的topic
+//    }
 }
