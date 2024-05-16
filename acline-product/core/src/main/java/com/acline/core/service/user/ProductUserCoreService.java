@@ -12,7 +12,7 @@ import java.util.List;
  * @Version
  */
 public interface ProductUserCoreService {
-    List<ProductUserDO> selectUserList();
+    List<ProductUserDO> selectUserList(UserDTO dto);
 
     boolean updateUser(UserDTO dto);
 }
