@@ -34,7 +34,9 @@ public class ProductUserController {
     @GetMapping("/queryList")
     public ResultInfo<List<ProductUserDO>> queryList() {
         LOGGER.info("start:queryList");
-        List<ProductUserDO> productUserDOS = productUserCoreService.selectUserList();
+        UserDTO dto = new UserDTO();
+        dto.setId(1);
+        List<ProductUserDO> productUserDOS = productUserCoreService.selectUserList(dto);
         LOGGER.info("queryList:productUserDOS:{}", productUserDOS);
         return new ResultInfo<List<ProductUserDO>>().succeed(productUserDOS);
     }
