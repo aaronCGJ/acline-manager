@@ -5,8 +5,14 @@ package com.acline.core.service.impl.device;/**
  * @Version 1.0
  */
 
+import com.acline.common.dal.dao.device.DeviceDao;
 import com.acline.common.dto.DevicePageDTO;
+import com.acline.common.dto.DeviceTotalAssetsDTO;
+import com.acline.common.dto.DevicesQueryQO;
 import com.acline.core.service.device.DeviceCoreService;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,8 +24,18 @@ import java.util.List;
  */
 @Service
 public class DeviceCoreServiceImpl implements DeviceCoreService {
+    @Autowired
+    private DeviceDao deviceDao;
     @Override
     public List<DevicePageDTO> queryDeviceList() {
         return null;
+    }
+
+    @Override
+    public PageInfo<DeviceTotalAssetsDTO> deviceTotalAssetsPage(DevicesQueryQO query) {
+        PageHelper.startPage(1, 500);
+        List<DeviceTotalAssetsDTO> totalAssetsDTOS= deviceDao.deviceTotalAssetsPage(query);
+        return new PageInfo<>(totalAssetsDTOS);
+
     }
 }

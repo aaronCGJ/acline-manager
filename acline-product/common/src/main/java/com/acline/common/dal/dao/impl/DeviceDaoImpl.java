@@ -1,7 +1,11 @@
 package com.acline.common.dal.dao.impl;
 
 import com.acline.common.dal.dao.device.DeviceDao;
+import com.acline.common.dto.DeviceTotalAssetsDTO;
+import com.acline.common.dto.DevicesQueryQO;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 /**
  * @author Aaron Chen
@@ -12,4 +16,9 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class DeviceDaoImpl implements DeviceDao {
 
+
+    @Override
+    public List<DeviceTotalAssetsDTO> deviceTotalAssetsPage(DevicesQueryQO query) {
+        return null;
+    }
 }

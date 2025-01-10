@@ -26,11 +26,11 @@ public class UserCheckAspect {
 
     }
 
-//    @Before(value = "pointCut()")
-//    public void beforeUserSetting(JoinPoint point){ //切面
-//        System.err.println("开始调用用户的核心方法了"+"——>beforeUserSetting");
-//
-//    }
+    @Before(value = "pointCut()")
+    public void beforeUserSetting(JoinPoint point){ //切面
+        System.err.println("开始调用用户的核心方法了"+"——>beforeUserSetting");
+
+    }
 
 //    @AfterReturning(value = "pointCut()")
 //    public  void afterRunningSetting(JoinPoint point){

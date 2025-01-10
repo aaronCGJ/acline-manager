@@ -67,7 +67,11 @@
 
         <!-- 数据库表 -->
 
-        <table tableName="product_user" domainObjectName="ProductUserDO">
+<!--        <table tableName="product_user" domainObjectName="ProductUserDO">-->
+<!--            <generatedKey sqlStatement="MySql" column="id" type="post" identity="true"/>-->
+<!--        </table>-->
+
+        <table tableName="devices" domainObjectName="DeviceDO">
             <generatedKey sqlStatement="MySql" column="id" type="post" identity="true"/>
         </table>
 

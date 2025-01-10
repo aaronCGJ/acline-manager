@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="acline-combination-tool-1.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../acline-combination-tool/target/acline-combination-tool-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../repository/acline-combination-tool-1.0-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

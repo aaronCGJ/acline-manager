@@ -1,6 +1,9 @@
 package com.acline.core.service.device;
 
 import com.acline.common.dto.DevicePageDTO;
+import com.acline.common.dto.DeviceTotalAssetsDTO;
+import com.acline.common.dto.DevicesQueryQO;
+import com.github.pagehelper.PageInfo;
 
 import java.util.List;
 
@@ -13,4 +16,6 @@ import java.util.List;
 public interface DeviceCoreService {
 
     List<DevicePageDTO> queryDeviceList();
+
+    PageInfo<DeviceTotalAssetsDTO> deviceTotalAssetsPage(DevicesQueryQO query);
 }

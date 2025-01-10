@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.acline.common.dal.mapper.DeviceDOMapper" >
+  <resultMap id="BaseResultMap" type="com.acline.common.dal.dataobject.DeviceDO" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="dev_id" property="devId" jdbcType="INTEGER" />
+    <result column="parent" property="parent" jdbcType="INTEGER" />
+    <result column="type_id" property="typeId" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="SMALLINT" />
+    <result column="client_id" property="clientId" jdbcType="INTEGER" />
+    <result column="service_id" property="serviceId" jdbcType="INTEGER" />
+    <result column="owner" property="owner" jdbcType="INTEGER" />
+    <result column="owner_type" property="ownerType" jdbcType="CHAR" />
+    <result column="client_owned" property="clientOwned" jdbcType="TINYINT" />
+    <result column="base" property="base" jdbcType="INTEGER" />
+    <result column="dev_desc" property="devDesc" jdbcType="VARCHAR" />
+    <result column="can_parent" property="canParent" jdbcType="INTEGER" />
+    <result column="label" property="label" jdbcType="VARCHAR" />
+    <result column="rack_id" property="rackId" jdbcType="INTEGER" />
+    <result column="rack_pos" property="rackPos" jdbcType="VARCHAR" />
+    <result column="rack_mount_orientation" property="rackMountOrientation" jdbcType="TINYINT" />
+    <result column="rack_units" property="rackUnits" jdbcType="TINYINT" />
+    <result column="height" property="height" jdbcType="DECIMAL" />
+    <result column="width" property="width" jdbcType="DECIMAL" />
+    <result column="depth" property="depth" jdbcType="DECIMAL" />
+    <result column="front_image_file_id" property="frontImageFileId" jdbcType="INTEGER" />
+    <result column="back_image_file_id" property="backImageFileId" jdbcType="INTEGER" />
+    <result column="mon_total" property="monTotal" jdbcType="INTEGER" />
+    <result column="mon_up" property="monUp" jdbcType="INTEGER" />
+    <result column="mon_down" property="monDown" jdbcType="INTEGER" />
+    <result column="mon_disabled" property="monDisabled" jdbcType="INTEGER" />
+    <result column="mon_warn" property="monWarn" jdbcType="INTEGER" />
+    <result column="power_status" property="powerStatus" jdbcType="INTEGER" />
+    <result column="last_change" property="lastChange" jdbcType="INTEGER" />
+    <result column="last_poll" property="lastPoll" jdbcType="INTEGER" />
+    <result column="connection_node_type_id" property="connectionNodeTypeId" jdbcType="INTEGER" />
+    <result column="asset_no" property="assetNo" jdbcType="VARCHAR" />
+    <result column="rfid_no" property="rfidNo" jdbcType="VARCHAR" />
+    <result column="sn" property="sn" jdbcType="VARCHAR" />
+    <result column="relate_code" property="relateCode" jdbcType="VARCHAR" />
+    <result column="relate_detail_id" property="relateDetailId" jdbcType="INTEGER" />
+    <result column="owner_id" property="ownerId" jdbcType="INTEGER" />
+    <result column="ipmi_ip" property="ipmiIp" jdbcType="VARCHAR" />
+    <result column="pool_id" property="poolId" jdbcType="INTEGER" />
+    <result column="is_nni" property="isNni" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="price" property="price" jdbcType="DECIMAL" />
+    <result column="currency" property="currency" jdbcType="VARCHAR" />
+    <result column="pono" property="pono" jdbcType="VARCHAR" />
+    <result column="storage_id" property="storageId" jdbcType="INTEGER" />
+    <result column="inst_id" property="instId" jdbcType="INTEGER" />
+    <result column="inst_code" property="instCode" jdbcType="VARCHAR" />
+    <result column="oper_id" property="operId" jdbcType="VARCHAR" />
+    <result column="op_time" property="opTime" jdbcType="TIMESTAMP" />
+    <result column="comment" property="comment" jdbcType="VARCHAR" />
+    <result column="unit" property="unit" jdbcType="VARCHAR" />
+    <result column="fac_id" property="facId" jdbcType="INTEGER" />
+    <result column="is_subscribe" property="isSubscribe" jdbcType="INTEGER" />
+    <result column="pw_list_id" property="pwListId" jdbcType="INTEGER" />
+    <result column="devices_destroy" property="devicesDestroy" jdbcType="TINYINT" />
+    <result column="sync_version" property="syncVersion" jdbcType="INTEGER" />
+    <result column="fan_direction" property="fanDirection" jdbcType="INTEGER" />
+    <result column="reserved" property="reserved" jdbcType="INTEGER" />
+    <result column="stacked" property="stacked" jdbcType="INTEGER" />
+    <result column="stack_index" property="stackIndex" jdbcType="INTEGER" />
+    <result column="stack_dev_id" property="stackDevId" jdbcType="INTEGER" />
+    <result column="oss3_dev_type_id" property="oss3DevTypeId" jdbcType="INTEGER" />
+    <result column="metadata" property="metadata" jdbcType="LONGVARCHAR" />
+    <result column="custom_info" property="customInfo" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>
