@@ -4,55 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43bed926-76f0-4272-ad56-41f47f613682" name="更改" comment="版本变更">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/config/productConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/circuit/response/CrossConnectQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/controller/circuitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/application/src/main/resources/config/application-forest.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/dao/circuit/CircuitDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/dao/impl/CircuitDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/dataobject/ResourceCrossConnectDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/mapper/ResourceCrossConnectDOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/CrossConnectPageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/CrossConnectQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/test/JsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/utils/SpringContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/resources/mapper/ResourceCrossConnectDOMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/http/OssHttp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/http/response/BssCommonResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/http/response/BssNewInstanceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/http/response/DataResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/device/CircuitCoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/circuit/CircuitCoreServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/utils/OssHttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_4_25__16_42____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/device/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/device/DeviceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/request/DevicesQueryRO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/request/DevicesQueryRO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/request/UserRequestRO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/request/UserRequestRO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/mapper/DeviceDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/mapper/DeviceDOMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceAssetsThreadDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceAssetsThreadDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetCategoryVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetCategoryVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetTypeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetTypeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetsDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTypeResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTypeResultDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DevicesQueryQO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DevicesQueryQO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/test/tool/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/test/tool/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/config/InfluxDBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/config/InfluxDBConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/device/DeviceCoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/device/DeviceCoreService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/device/DeviceCoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/device/DeviceCoreServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/influx/InfluxCoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/influx/InfluxCoreServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/http-client.controller.test.http" beforeDir="false" afterPath="$PROJECT_DIR$/tool/http-client.controller.test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/http-client.private.env.json" beforeDir="false" afterPath="$PROJECT_DIR$/tool/http-client.private.env.json" afterDir="false" />
-    </list>
+    <list default="true" id="43bed926-76f0-4272-ad56-41f47f613682" name="更改" comment="版本变更" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +47,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
-    <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="flattenModules" value="true" />
     <option name="foldersAlwaysOnTop" value="false" />
@@ -224,6 +175,7 @@
       <workItem from="1743148540009" duration="6442000" />
       <workItem from="1743317347822" duration="1800000" />
       <workItem from="1743387474212" duration="5703000" />
+      <workItem from="1743406949069" duration="1159000" />
     </task>
     <servers />
   </component>
