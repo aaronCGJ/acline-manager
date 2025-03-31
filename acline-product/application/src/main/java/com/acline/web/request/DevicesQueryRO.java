@@ -1,6 +1,5 @@
-package com.zenlayer.oss.web.oss.device.request;
+package com.acline.web.request;
 
-import com.zenlayer.oss.sdk.baseline.common.CommonQueryRO;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -14,7 +13,7 @@ import java.util.List;
  */
 @Data
 @ApiModel(description = "设备列表筛选参数")
-public class DevicesQueryRO extends CommonQueryRO {
+public class DevicesQueryRO  {
 
     @ApiModelProperty("大类id, 数据来自tb_device_catalog 表")
     private Integer categoryId;

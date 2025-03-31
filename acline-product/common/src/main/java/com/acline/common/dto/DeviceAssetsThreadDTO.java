@@ -1,5 +1,6 @@
-package com.zenlayer.oss.common.dto.oss.device;
+package com.acline.common.dto;
 
+import com.acline.common.dto.DeviceTotalAssetsDTO;
 import lombok.Data;
 
 import java.util.List;

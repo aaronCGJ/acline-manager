@@ -1,4 +1,4 @@
-package com.zenlayer.oss.common.dto.oss.device;
+package com.acline.common.dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -10,7 +10,7 @@ import lombok.Data;
  * @Version 1.0
  */
 @Data
-public class DeviceTotalAssetTypeVO extends DeviceAssetsCommonDTO{
+public class DeviceTotalAssetTypeVO {
     @ApiModelProperty("设备类目ID")
     private Integer categoryId;
     @ApiModelProperty("设备类目名称")

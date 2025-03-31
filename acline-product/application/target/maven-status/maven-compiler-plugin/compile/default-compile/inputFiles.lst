@@ -1,0 +1,16 @@
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/test/TestController.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/kafka/KafkaProducerController.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/device/annotion/CheckInArrayValidator.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/config/ThreadPoolConfig.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/device/DeviceController.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/config/PrintBanner.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/productuser/ProductUserController.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/ProductApplication.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/kafka/KafkaConsumer.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/ip/IpControlller.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/InfluxController.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/device/annotion/CheckValueInArrayLimit.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/config/KafkaConfig.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/request/UserRequestRO.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/request/DevicesQueryRO.java
+/Users/aaron.chen/acline/acline-manager/acline-product/application/src/main/java/com/acline/web/device/annotion/ResourceUpdateParam.java

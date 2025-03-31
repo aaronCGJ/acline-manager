@@ -5,6 +5,10 @@ import com.acline.common.dto.IpPageDTO;
 import org.junit.Test;
 
 import java.io.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author Aaron Chen
@@ -59,4 +63,16 @@ public class TestMain {
 
     }
 
+    @Test
+    public void test2() {
+
+        //比对 订单明细行与资源明细行是否匹配
+        List<Integer> quoteDetailIds = Arrays.asList(1,2,3,4,5,6,7,9,10);
+        List<Integer> resourceQuoteDetailIds =  Arrays.asList(1,2,3,4,5,6,7,9);
+        if (!quoteDetailIds.containsAll(resourceQuoteDetailIds)||(resourceQuoteDetailIds.size()!=quoteDetailIds.size())) {
+            System.out.println("订单明细行与资源明细行不匹配");
+        }
+
+
+    }
 }

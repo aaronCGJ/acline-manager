@@ -1,6 +1,4 @@
-package com.zenlayer.oss.common.query.oss;
-
-import com.zenlayer.oss.sdk.baseline.common.CommonSelectQO;
+package com.acline.common.dto;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -14,7 +12,7 @@ import java.util.List;
  */
 @Data
 @ApiModel(description = "设备列表筛选参数")
-public class DevicesQueryQO extends CommonSelectQO {
+public class DevicesQueryQO {
 
     @ApiModelProperty("大类id")
     private Integer categoryId;

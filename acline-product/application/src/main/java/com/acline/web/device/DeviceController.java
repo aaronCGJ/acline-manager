@@ -2,13 +2,9 @@ package com.acline.web.device;
 
 import acline.base.util.model.ResultInfo;
 import com.acline.common.dto.DevicePageDTO;
-import com.acline.common.dto.DeviceTotalAssetsDTO;
-import com.acline.common.dto.DevicesQueryQO;
+import com.acline.core.http.response.BssNewInstanceResponse;
 import com.acline.core.service.device.DeviceCoreService;
 import com.acline.web.device.annotion.ResourceUpdateParam;
-import com.acline.web.request.DevicesQueryRO;
-import com.github.pagehelper.PageInfo;
-import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +25,7 @@ public class DeviceController {
 
     @Autowired
     private DeviceCoreService deviceCoreService;
+
 
     @RequestMapping("/deviceTest")
     public String deviceTest() {
@@ -55,19 +52,17 @@ public class DeviceController {
 
         return new ResultInfo<Boolean>().succeed();
     }
+    @GetMapping("/queryBssNewInstance/{searchValue}")
+    public ResultInfo<BssNewInstanceResponse> queryBssNewInstance(@PathVariable("searchValue") String searchValue) {
 
-    @GetMapping("/deviceTotalAssetsPage")
-    @ApiOperation(value = "设备总量和总值统计列表")
-    public ResultInfo<PageInfo<DeviceTotalAssetsDTO>> deviceTotalAssetsPage(DevicesQueryRO ro){
 
-        DevicesQueryQO query = new DevicesQueryQO();
-        query.setOwner(ro.getOwner());
-        query.setStatusList(ro.getStatusList());
-        query.setTypeId(ro.getTypeId());
-
-        PageInfo<DeviceTotalAssetsDTO> result = deviceCoreService.deviceTotalAssetsPage(query);
-        return  new ResultInfo<PageInfo<DeviceTotalAssetsDTO>>().succeed(result);
+        BssNewInstanceResponse response=   deviceCoreService.queryBssNewInstance(searchValue);
+       return new ResultInfo<BssNewInstanceResponse>().succeed(response);
     }
+
+
+
+
 
 
 }

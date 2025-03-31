@@ -29,4 +29,14 @@ Content-Type: application/json
   "userName": "edit_aaron"
 }
 
-### END ###############################################################################
+###############################################################################
+
+GET localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+
+##################
+
+GET localhost:8088/circuit/page?pageSize=1&pageNum=1
+Content-Type: application/json
+
+##################

@@ -1,3 +1,283 @@
+GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T112407.200.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T112358.200.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T112342.200.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T111223.200.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T111145.200.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T110947.200.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T110819.200.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T110811.200.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T110719.200.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T110619.500.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T110350.500.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T110254.500.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T105812.500.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T105728.500.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T105620.500.json
+
+###
+
+GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T105532.404.json
+
+###
+
+GET http://localhost:8088/circuit/pageSize=10&pageNum=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-31T105448.404.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T171306.200.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T165144.200.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T164615.200.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T164503.200.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T164332.200.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T164254.200.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T164025.200.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T163946.200.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T161724.500.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T161552.500.json
+
+###
+
+GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-28T161346.500.json
+
+###
+
 GET http://localhost:8080/productUser/queryList
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
@@ -201,75 +481,6 @@ User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-08-23T101207.500.json
-
-###
-
-GET http://localhost:8080/device/deviceTest
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T101026.200.txt
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T101003.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T100924.500.json
-
-###
-
-GET http://localhost:8080/dashboard/actuator/health
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-04-28T164923.404.json
-
-###
-
-GET http://localhost:8080/device/deviceTest
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-04-28T164854.200.txt
-
-###
-
-GET http://localhost:8080/device/deviceTest
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-04-28T164608.200.txt
-
-###
-
-GET http://localhost:8080/ip/ipTest
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-03-10T110514.200.txt
-
-###
-
-GET http://localhost:8080/ip/ipTest
-
-<> 2022-11-16T143100.404.json
 
 ###
 

@@ -1,5 +1,7 @@
-package com.zenlayer.oss.common.dto.oss.device;
+package com.acline.common.dto;
 
+import com.acline.common.dto.DeviceAssetsCommonDTO;
+import com.acline.common.dto.DeviceCategoryResultDTO;
 import io.swagger.annotations.ApiModel;
 import lombok.Data;
 

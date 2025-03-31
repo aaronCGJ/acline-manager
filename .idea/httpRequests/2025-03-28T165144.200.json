@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "ret": 0,
+  "code": "SUCCESS",
+  "msg": "SUCCESS",
+  "data": {
+    "code": "SUCCESS",
+    "ret": 0,
+    "msg": "success",
+    "success": true,
+    "msgEn": "",
+    "data": [
+      {
+        "newInstanceId": "FLOW690143474015588448",
+        "name": "FLOW690143474015588448-算力带宽组SKU 测试",
+        "resourceType": 0
+      }
+    ]
+  }
+}

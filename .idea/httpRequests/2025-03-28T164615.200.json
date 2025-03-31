@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "ret": 0,
+  "code": "SUCCESS",
+  "msg": "SUCCESS",
+  "data": {
+    "code": null,
+    "ret": null,
+    "msg": null,
+    "success": false,
+    "msgEn": null,
+    "data": null
+  }
+}

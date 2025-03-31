@@ -5,40 +5,183 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43bed926-76f0-4272-ad56-41f47f613682" name="更改" comment="版本变更">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/config/productConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/circuit/response/CrossConnectQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/controller/circuitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/application/src/main/resources/config/application-forest.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/dao/circuit/CircuitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/dao/impl/CircuitDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/dataobject/ResourceCrossConnectDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/mapper/ResourceCrossConnectDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/CrossConnectPageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/CrossConnectQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/test/JsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/utils/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/common/src/main/resources/mapper/ResourceCrossConnectDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/http/OssHttp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/http/response/BssCommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/http/response/BssNewInstanceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/http/response/DataResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/device/CircuitCoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/circuit/CircuitCoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/utils/OssHttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_4_25__16_42____.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acline-product/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/config/KafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/kafka/KafkaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/kafka/KafkaProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/kafka/KafkaProducerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/resources/config/application-kafka.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/device/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/device/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/request/DevicesQueryRO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/request/DevicesQueryRO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/request/UserRequestRO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/web/request/UserRequestRO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acline-product/application/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/application/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acline-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/mapper/DeviceDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dal/mapper/DeviceDOMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceAssetsThreadDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceAssetsThreadDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetCategoryVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetCategoryVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetTypeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetTypeVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTotalAssetsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTypeResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DeviceTypeResultDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DevicesQueryQO.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/dto/DevicesQueryQO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/test/tool/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/test/tool/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/config/InfluxDBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/config/InfluxDBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/device/DeviceCoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/device/DeviceCoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/device/DeviceCoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/device/DeviceCoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/influx/InfluxCoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/service/impl/influx/InfluxCoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/http-client.controller.test.http" beforeDir="false" afterPath="$PROJECT_DIR$/tool/http-client.controller.test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/http-client.private.env.json" beforeDir="false" afterPath="$PROJECT_DIR$/tool/http-client.private.env.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aaronCGJ&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aaronCGJ/acline-manager.git&quot;,
+    &quot;accountId&quot;: &quot;35ed5a96-8e6e-4531-8c09-6bc3a3585fba&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2utTdWXGULYKpw0XcwfOS6PPgpp" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.acline-product [clean].executor": "Run",
-    "Maven.acline-product [deploy].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "Spring Boot.ProductApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "全局库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2862069"
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JsonTest.executor&quot;: &quot;Debug&quot;,
+    &quot;HTTP Request.http-client.controller.test | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.http-client.controller.test | #6.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMain.test2.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.acline-product [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.acline-product [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.acline-product [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ProductApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aaron.chen/acline/acline-manager/acline-product/common/src/main/resources/mapper&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;全局库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2862069&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/acline-product/common/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/utils" />
+      <recent name="$PROJECT_DIR$/acline-product/core/src/main/java/com/acline/core/http" />
+      <recent name="$PROJECT_DIR$/acline-product/application/src/main/resources/config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.acline.web.controller.dto" />
+      <recent name="com.acline.web.circuit.response" />
+      <recent name="com.acline.core.http" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JsonTest">
+    <configuration name="JsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.acline.common.test.JsonTest" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.acline.common.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="http-client.controller.test | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tool/http-client.controller.test.http" executionIdentifier="#5" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="http-client.controller.test | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tool/http-client.controller.test.http" executionIdentifier="#6" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMain.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.acline.common.test.tool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.acline.common.test.tool" />
+      <option name="MAIN_CLASS_NAME" value="com.acline.common.test.tool.TestMain" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="acline-product.application" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.acline.ProductApplication" />
@@ -54,12 +197,38 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonTest" />
+        <item itemvalue="HTTP Request.http-client.controller.test | #6" />
         <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="HTTP Request.http-client.controller.test | #5" />
+        <item itemvalue="JUnit.TestMain.test2" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1743066959012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743066959012</updated>
+      <workItem from="1743066960381" duration="1818000" />
+      <workItem from="1743148540009" duration="6442000" />
+      <workItem from="1743317347822" duration="1800000" />
+      <workItem from="1743387474212" duration="5703000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -83,6 +252,21 @@
           <properties class="org.springframework.beans.BeanInstantiationException" package="org.springframework.beans" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/method/HandlerMethod.java</url>
+          <line>424</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/acline-product/application/src/main/java/com/acline/config/productConfig.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/acline-product/common/src/main/java/com/acline/common/test/JsonTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

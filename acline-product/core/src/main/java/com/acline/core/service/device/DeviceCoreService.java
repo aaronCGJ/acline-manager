@@ -3,6 +3,7 @@ package com.acline.core.service.device;
 import com.acline.common.dto.DevicePageDTO;
 import com.acline.common.dto.DeviceTotalAssetsDTO;
 import com.acline.common.dto.DevicesQueryQO;
+import com.acline.core.http.response.BssNewInstanceResponse;
 import com.github.pagehelper.PageInfo;
 
 import java.util.List;
@@ -18,4 +19,6 @@ public interface DeviceCoreService {
     List<DevicePageDTO> queryDeviceList();
 
     PageInfo<DeviceTotalAssetsDTO> deviceTotalAssetsPage(DevicesQueryQO query);
+
+    BssNewInstanceResponse queryBssNewInstance(String searchValue);
 }
