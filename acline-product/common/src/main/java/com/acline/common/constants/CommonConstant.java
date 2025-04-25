@@ -68,4 +68,5 @@ public class CommonConstant {
     public static final Integer DEFAULT_BATCH_GET_LIMIT = 1000;
 
     public static final Integer DEFAULT_MYSQL_IN_LIMIT = 20;
+    public static final String invoiceExcelTempParentCode="invoiceExcelTemp";
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.acline.common.dal.mapper.PurchaseQuoteChangeDOMapper" >
+  <resultMap id="BaseResultMap" type="com.acline.common.dal.dataobject.PurchaseQuoteChangeDO">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER"/>
+    <result column="resource_id" property="resourceId" jdbcType="INTEGER"/>
+    <result column="resource_type" property="resourceType" jdbcType="INTEGER"/>
+    <result column="cur_request_detail_id" property="curRequestDetailId" jdbcType="INTEGER"/>
+    <result column="pre_request_detail_id" property="preRequestDetailId" jdbcType="INTEGER"/>
+    <result column="cur_delivery_order_no" property="curDeliveryOrderNo" jdbcType="VARCHAR"/>
+    <result column="cur_delivery_detail_id" property="curDeliveryDetailId" jdbcType="INTEGER"/>
+    <result column="pre_delivery_order_no" property="preDeliveryOrderNo" jdbcType="VARCHAR"/>
+    <result column="pre_delivery_detail_id" property="preDeliveryDetailId" jdbcType="INTEGER"/>
+    <result column="status" property="status" jdbcType="INTEGER"/>
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+    <result column="create_by" property="createBy" jdbcType="VARCHAR"/>
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"/>
+    <result column="update_by" property="updateBy" jdbcType="VARCHAR"/>
+    <result column="del" property="del" jdbcType="INTEGER"/>
+    <result column="delete_time" property="deleteTime" jdbcType="TIMESTAMP"/>
+  </resultMap>
+
+  <sql id="BaseColumnList">
+    <!-- WARNING - @mbg.generated -->
+    id, resource_id, resource_type, cur_request_detail_id, pre_request_detail_id, cur_delivery_order_no, cur_delivery_detail_id,
+    pre_delivery_order_no, pre_delivery_detail_id, `status`, create_time, create_by, update_time, update_by, del, delete_time
+  </sql>
+
+    <select id="existPreQuoteChange" resultType="java.lang.Integer">
+      select count(1)
+      from vendor_purchase_quote_change
+      where del = 0
+        and (
+        (pre_delivery_order_no = #{preDeliveryNo} and cur_delivery_order_no is not null)
+          or
+        (cur_delivery_order_no = #{preDeliveryNo} and pre_delivery_order_no is null)
+        )
+        and status &lt;&gt; 2
+
+
+    </select>
+
+</mapper>

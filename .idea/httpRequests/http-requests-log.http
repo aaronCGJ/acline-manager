@@ -1,486 +1,492 @@
+GET http://localhost:8088/excel/queryParamDicList
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-24T144419.200.json
+
+###
+
+GET http://localhost:8088/excel/queryParamDic
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-24T120729.200.json
+
+###
+
+GET http://localhost:8088/excel/queryParamDic
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-24T120615.200.json
+
+###
+
+GET http://localhost:8088/excel/queryParamDic
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-24T120507.200.json
+
+###
+
+GET http://localhost:8088/excel/queryParamDic
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-24T115226.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-23T095004.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T155135.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T155038.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T154027.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T153820.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T153454.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T152638.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T152412.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T152155.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T151951.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T151858.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T151654.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T151122.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T151028.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T150959.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T150920.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T150534.200.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T150440.500.json
+
+###
+
+GET http://localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-22T150339.500.json
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表-1.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表-1.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表-1.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表-1.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表-3.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表-2.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表-1.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> AP账单明细报表.xlsx
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson={"queryValue":"","pageNum":1,"pageSize":2}
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
 GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
 Content-Type: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
-<> 2025-03-31T112407.200.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T112358.200.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T112342.200.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T111223.200.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T111145.200.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T110947.200.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T110819.200.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=1&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T110811.200.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T110719.200.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T110619.500.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T110350.500.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T110254.500.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T105812.500.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T105728.500.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T105620.500.json
-
-###
-
-GET http://localhost:8088/circuit/page?pageSize=10&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T105532.404.json
-
-###
-
-GET http://localhost:8088/circuit/pageSize=10&pageNum=1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-31T105448.404.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T171306.200.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T165144.200.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T164615.200.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T164503.200.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T164332.200.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T164254.200.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T164025.200.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T163946.200.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T161724.500.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T161552.500.json
-
-###
-
-GET http://localhost:8088/device/queryBssNewInstance/FLOW690143474015588448
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-28T161346.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T172849.200.json
-
-###
-
-POST http://localhost:8080/productUser/update
-Content-Type: application/json
-Content-Length: 65
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "id": 1,
-  "passWord": "edit_1",
-  "userName": "edit_aaron"
-}
-
-<> 2023-08-23T172845.200.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T172840.200.json
-
-###
-
-GET http://localhost:8080/device/deviceTest
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T172837.200.txt
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T114131.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T114058.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T113639.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T113423.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T113212.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T113005.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T112913.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T112633.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T112130.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T110835.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T110557.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T110234.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T105423.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T104206.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T101528.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T101354.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T101255.500.json
-
-###
-
-GET http://localhost:8080/productUser/queryList
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-23T101207.500.json
+<> 2025-04-15T162342.500.json
 
 ###
 

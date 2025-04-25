@@ -21,4 +21,7 @@ public interface DeviceCoreService {
     PageInfo<DeviceTotalAssetsDTO> deviceTotalAssetsPage(DevicesQueryQO query);
 
     BssNewInstanceResponse queryBssNewInstance(String searchValue);
+
+    void existPreQuoteChange();
+
 }

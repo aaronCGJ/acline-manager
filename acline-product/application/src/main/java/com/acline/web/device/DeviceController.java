@@ -60,6 +60,15 @@ public class DeviceController {
        return new ResultInfo<BssNewInstanceResponse>().succeed(response);
     }
 
+    @GetMapping("/existPreQuoteChange")
+    public ResultInfo<Boolean> existPreQuoteChange() {
+
+          deviceCoreService.existPreQuoteChange();
+        return new ResultInfo<Boolean>().succeed();
+    }
+
+
+
 
 
 

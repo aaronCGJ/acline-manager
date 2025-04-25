@@ -36,7 +36,16 @@ Content-Type: application/json
 
 ##################
 
-GET localhost:8088/circuit/page?pageSize=1&pageNum=1
+localhost:8088/excel/excelExport?bizCode=AP-DETAIL-REPORT-BIZ&requestParamJson=%7B%22queryValue%22%3A%22%22%2C%22pageNum%22%3A1%2C%22pageSize%22%3A2%7D
+Content-Type: application/json
+
+##################
+
+localhost:8088/device/existPreQuoteChange
+Content-Type: application/json
+
+##################
+localhost:8088/excel/queryParamDicList
 Content-Type: application/json
 
 ##################

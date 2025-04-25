@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.acline.common.dal.mapper.PurchaseInvoiceDetailDOMapper" >
+  <resultMap id="BaseResultMap" type="com.acline.common.dal.dataobject.PurchaseInvoiceDetailDO" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+	  <id column="id" property="id" jdbcType="INTEGER" />
+	  <result column="invoice_order_no" property="invoiceOrderNo" jdbcType="VARCHAR" />
+	  <result column="quote_detail_id" property="quoteDetailId" jdbcType="INTEGER" />
+	  <result column="quote_order_no" property="quoteOrderNo" jdbcType="VARCHAR" />
+	  <result column="request_detail_no" property="requestDetailNo" jdbcType="VARCHAR" />
+	  <result column="supplier_id" property="supplierId" jdbcType="INTEGER" />
+	  <result column="supplier_name" property="supplierName" jdbcType="VARCHAR" />
+	  <result column="sign_entity" property="signEntity" jdbcType="INTEGER" />
+	  <result column="sign_entity_name" property="signEntityName" jdbcType="VARCHAR" />
+	  <result column="sku_description_en" property="skuDescriptionEn" jdbcType="VARCHAR" />
+	  <result column="sku_unit_en" property="skuUnitEn" jdbcType="VARCHAR" />
+	  <result column="bv_code" property="bvCode" jdbcType="VARCHAR" />
+	  <result column="delivery_instance_code" property="deliveryInstanceCode" jdbcType="VARCHAR" />
+	  <result column="quote_mode" property="quoteMode" jdbcType="INTEGER" />
+	  <result column="original_amount" property="originalAmount" jdbcType="VARCHAR" />
+	  <result column="amount" property="amount" jdbcType="VARCHAR" />
+	  <result column="qty" property="qty" jdbcType="VARCHAR" />
+	  <result column="qty_amount" property="qtyAmount" jdbcType="VARCHAR" />
+	  <result column="tax_rate" property="taxRate" jdbcType="VARCHAR" />
+	  <result column="tax_amount" property="taxAmount" jdbcType="VARCHAR" />
+	  <result column="discount_rate" property="discountRate" jdbcType="VARCHAR" />
+	  <result column="discount_amount" property="discountAmount" jdbcType="VARCHAR" />
+	  <result column="gemount" property="gemount" jdbcType="VARCHAR" />
+	  <result column="currency" property="currency" jdbcType="VARCHAR" />
+	  <result column="billing_start_date" property="billingStartDate" jdbcType="DATE" />
+	  <result column="type" property="type" jdbcType="TINYINT" />
+	  <result column="start_date" property="startDate" jdbcType="DATE" />
+	  <result column="end_date" property="endDate" jdbcType="DATE" />
+	  <result column="term_rate" property="termRate" jdbcType="VARCHAR" />
+	  <result column="fac_id_a" property="facIdA" jdbcType="INTEGER" />
+	  <result column="fac_name_a" property="facNameA" jdbcType="VARCHAR" />
+	  <result column="fac_id_z" property="facIdZ" jdbcType="INTEGER" />
+	  <result column="fac_name_z" property="facNameZ" jdbcType="VARCHAR" />
+	  <result column="purchase_type" property="purchaseType" jdbcType="INTEGER" />
+	  <result column="budget_unit_id" property="budgetUnitId" jdbcType="INTEGER" />
+	  <result column="budget_unit_name" property="budgetUnitName" jdbcType="VARCHAR" />
+	  <result column="invoice_date" property="invoiceDate" jdbcType="DATE" />
+	  <result column="invoice_rule_id" property="invoiceRuleId" jdbcType="INTEGER" />
+	  <result column="invoice_order_date" property="invoiceOrderDate" jdbcType="DATE" />
+	  <result column="supplier_invoice_no" property="supplierInvoiceNo" jdbcType="VARCHAR" />
+	  <result column="tag" property="tag" jdbcType="INTEGER" />
+	  <result column="revised_id" property="revisedId" jdbcType="INTEGER" />
+	  <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+	  <result column="create_by" property="createBy" jdbcType="VARCHAR" />
+	  <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+	  <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+	  <result column="delete_time" property="deleteTime" jdbcType="TIMESTAMP" />
+	  <result column="del" property="del" jdbcType="INTEGER" />
+  </resultMap>
+
+	<sql id="BaseColumnList" >
+		<!-- WARNING - @mbg.generated -->
+		id, invoice_order_no, quote_detail_id, quote_order_no, request_detail_no, supplier_id, supplier_name, sign_entity, sign_entity_name, sku_description_en, sku_unit_en, bv_code, delivery_instance_code, quote_mode, original_amount, amount, qty, qty_amount, tax_rate, tax_amount, discount_rate, discount_amount, gemount, currency, billing_start_date, `type`, start_date, end_date, term_rate, fac_id_a, fac_name_a, fac_id_z, fac_name_z, purchase_type, budget_unit_id, budget_unit_name, invoice_date, invoice_rule_id, invoice_order_date, supplier_invoice_no, tag, revised_id, create_time, create_by, update_time, update_by, delete_time, del
+	</sql>
+
+  <select id="invoiceDetailPage"
+          resultType="com.acline.common.domain.InvoiceOrderDetailBO">
+    select
+	  distinct
+	  detail.id,
+	  detail.tag,
+	  detail.invoice_order_no,
+	  detail.quote_detail_id,
+	  detail.quote_order_no,
+	  detail.request_detail_no,
+	  detail.supplier_id,
+	  detail.supplier_name,
+	  detail.sign_entity,
+	  detail.sign_entity_name,
+	  detail.sku_description_en,
+	  detail.sku_unit_en,
+	  detail.bv_code,
+	  detail.delivery_instance_code,
+	  detail.quote_mode,
+	  detail.original_amount,
+	  detail.amount,
+	  detail.qty,
+	  detail.qty_amount,
+	  detail.tax_rate,
+	  detail.tax_amount,
+	  detail.discount_rate,
+	  detail.discount_amount,
+	  detail.gemount,
+	  detail.currency,
+	  detail.billing_start_date,
+	  detail.type,
+	  detail.start_date,
+	  detail.end_date,
+	  detail.term_rate,
+	  detail.fac_id_a,
+	  detail.fac_name_a,
+	  detail.fac_id_z,
+	  detail.fac_name_z,
+	  detail.purchase_type,
+	  detail.budget_unit_id,
+	  detail.budget_unit_name,
+	  detail.invoice_date,
+	  detail.invoice_rule_id,
+	  detail.invoice_order_date,
+	  detail.supplier_invoice_no,
+	  detail.revised_id ,
+	  detail.create_time,
+	  detail.create_by,
+	  detail.update_time,
+	  detail.update_by,
+	  detail.delete_time,
+	  detail.del ,
+	  quote.instance_id as quote_instance_id,rule.name as invoice_rule_name,
+	  delivery.instance_id  as delivery_instance_id,invoice.id as invoice_id,
+	  origin_quote.origin_quote_no,
+	  origin_quote.origin_quote_instance_code,
+	  origin_quote.origin_quote_instance_id,
+	  concat(CAST(detail.discount_rate*100 AS DECIMAL(10,2))  ,'%') as discount_rate_Value,
+	  concat(CAST(detail.tax_rate*100 AS DECIMAL(10,2))  ,'%') as tax_rate_Value,
+	  concat(CAST(detail.term_rate*100 AS DECIMAL(10,2))  ,'%') as term_rate_Value,
+	case when (detail.revised_id is null  and forward_detail.id is null ) then 0
+	  when (detail.revised_id is null and forward_detail.id is not null) then 1
+	  when (detail.revised_id is not null and forward_detail.id is null) then 2
+	  end as deduction_model,
+	  ifnull(detail.revised_id,forward_detail.id) as  deduction_id,
+	  forward_detail.id as forward_id
+
+	  from
+	  vendor_purchase_invoice_detail detail
+	  join  vendor_purchase_invoice_order invoice
+	  on detail.invoice_order_no = invoice.order_no
+	  left join vendor_supplier_invoice_rule rule
+	  on detail.invoice_rule_id = rule.id
+	  left join vendor_purchase_quote_order quote
+	  on detail.quote_order_no = quote.order_no
+	  left join vendor_purchase_delivery_order delivery on detail.delivery_instance_code=delivery.instance_code
+	  left join (
+	  select distinct  detail.quote_order_no ,
+	  origin_quote.order_no as origin_quote_no,
+	  origin_quote.instance_code as origin_quote_instance_code,
+	  origin_quote.instance_id as origin_quote_instance_id
+	  from
+	  vendor_purchase_quote_detail detail  join
+	  vendor_purchase_quote_detail origin_detail on detail.original_detail_id=origin_detail.id
+	  join vendor_purchase_quote_order origin_quote on origin_detail.quote_order_no=origin_quote.order_no
+	  where detail.original_detail_id is not null and origin_detail.del=0  and detail.del=0 and origin_quote.del=0
+	  )  as origin_quote on quote.order_no=origin_quote.quote_order_no
+	  left join  vendor_purchase_invoice_detail forward_detail  on forward_detail.revised_id = detail.id
+	  <where>
+      1=1 and detail.del = 0
+      and invoice.del = 0
+      <if test="signEntitys!=null and signEntitys.size() >0">
+        and detail.sign_entity in
+        <foreach collection="signEntitys" item="item" open="(" close=")"  separator=",">
+          #{item}
+        </foreach>
+      </if>
+      <if test="supplierIds!=null and supplierIds.size() >0">
+        and detail.supplier_id in
+        <foreach collection="supplierIds" item="item" open="(" close=")"  separator=",">
+          #{item}
+        </foreach>
+      </if>
+      <if test="startDate!=null">
+        and detail.start_date &gt;= #{startDate}
+      </if>
+      <if test="endDate!=null">
+        and detail.end_date &lt;= #{endDate}
+      </if>
+      <if test="allCheckStatus!=null and allCheckStatus.size() >0">
+        and invoice.check_status in
+        <foreach collection="allCheckStatus" item="item" open="("  close=")" separator=",">
+          #{item}
+        </foreach>
+      </if>
+      <if  test="currency!=null and currency!='' ">
+        and detail.currency = #{currency}
+      </if>
+      <if test="paymentTypes !=null and paymentTypes.size()>0">
+         and   detail.type in
+        <foreach collection="paymentTypes" item="item" open="(" close=")"  separator=",">
+          #{item}
+        </foreach>
+      </if>
+
+      <if test="invoiceId!=null">
+       and invoice.id = #{invoiceId}
+      </if>
+		<if	test="invoiceDate!=null and invoiceDate!=''">
+	   and DATE_FORMAT(detail.invoice_date, '%Y-%m-%d')
+       = #{invoiceDate}
+	   </if>
+
+      <if test="queryValue != null and queryValue != ''">
+        and (detail.quote_order_no like CONCAT('%', #{queryValue}, '%')
+           or detail.sku_description_en like CONCAT('%', #{queryValue}, '%')
+        or  detail.bv_code like CONCAT('%', #{queryValue}, '%')
+        or detail.request_detail_no like CONCAT('%', #{queryValue}, '%')
+        or detail.delivery_instance_code like CONCAT('%', #{queryValue}, '%')
+        )
+	  </if>
+		order by quote.create_time asc,detail.type asc ,detail.start_date desc
+	limit 10
+    </where>
+  </select>
+
+
+</mapper>

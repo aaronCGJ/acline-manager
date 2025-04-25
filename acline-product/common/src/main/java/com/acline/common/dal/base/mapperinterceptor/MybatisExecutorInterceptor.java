@@ -9,6 +9,7 @@ package com.acline.common.dal.base.mapperinterceptor;
 
 import org.apache.ibatis.builder.BuilderException;
 import org.apache.ibatis.executor.Executor;
+import org.apache.ibatis.mapping.BoundSql;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.plugin.*;
 import org.apache.ibatis.session.ResultHandler;
@@ -38,7 +39,9 @@ public class MybatisExecutorInterceptor implements Interceptor {
         MappedStatement ms = (MappedStatement) args[0];
 
         try {
-            ms.getBoundSql(args[1]);
+            BoundSql boundSql = ms.getBoundSql(args[1]);
+            log.info("SQL: {}", boundSql.getSql());
+            log.info("Parameters: {}", boundSql.getParameterObject());
         } catch (BuilderException var5) {
             log.error("interceptor a BuilderException: {}", var5);
             ms.getBoundSql(args[1]);
