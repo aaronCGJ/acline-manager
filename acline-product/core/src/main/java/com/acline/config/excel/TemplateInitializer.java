@@ -24,9 +24,9 @@ import static com.acline.common.constants.CommonConstant.invoiceExcelTempParentC
  * @Description:TODO
  * @Version 1.0
  */
-@Component
+//@Component
 public class TemplateInitializer {
-    @Autowired
+//    @Autowired
     ResourceDicUtil dicUtils;
     Logger logger = LoggerFactory.getLogger(TemplateInitializer.class);
     private static final Map<String, TemplateStructure> templateStructuresMap = new HashMap<>();

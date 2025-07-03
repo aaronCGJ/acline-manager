@@ -17,11 +17,11 @@ import java.util.Objects;
  * @description:
  * @date 2021/11/2011:29
  */
-@Component
+//@Component
 public class ResourceDicUtil {
     private static final Logger logger     = LoggerFactory.getLogger(ResourceDicUtil.class);
 
-    @Autowired
+//    @Autowired
     ResourceDicDao resourceDicDao;
 
 

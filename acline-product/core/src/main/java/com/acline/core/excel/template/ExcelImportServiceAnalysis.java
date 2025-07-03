@@ -24,7 +24,7 @@ import java.util.*;
 @Service
 public class ExcelImportServiceAnalysis {
 
-@Autowired
+//@Autowired
     TemplateInitializer templateInitializer;
 
     /**
